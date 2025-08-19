@@ -21,21 +21,23 @@ Demons run away fast and hide behind the wall, but
 > ![](Docs/ai.gif)
 
 ## Controls
-Mouse and KeyBoard:
-Mouse  - Aim
-WASD   - Move
-Shift  - Walk
-1,2,3  - Pistol, Melee, Radar
-LMB    - Fire
-RMB    - Lock on a demon
-
-GamePad:
-Right Stick  - Aim
-Left Stick   - Move
-L Trigger/A  - Walk
-X,Y,B        - Pistol, Melee, Radar
-R Trigger    - Fire
-L Shoulder   - Lock on a demon
+```
+Mouse and KeyBoard:  
+Mouse  - Aim  
+WASD   - Move  
+Shift  - Walk  
+1,2,3  - Pistol, Melee, Radar  
+LMB    - Fire  
+RMB    - Lock on a demon  
+  
+GamePad:  
+Right Stick  - Aim  
+Left Stick   - Move  
+L Trigger/A  - Walk  
+X,Y,B        - Pistol, Melee, Radar  
+R Trigger    - Fire  
+L Shoulder   - Lock on a demon  
+```
 
 ## Data Driven
 Actors, Maps, Weapons, Map Tiles are data-driven so that we can easily tweak the stats to have a better player experience.
