@@ -98,4 +98,15 @@ Here is an sample for Demon actor:
     </ActorDefinition>
 </Definitions>
 ```
+## How to run
+Go to `PROJECT_NAME/Run/` and Run `PROJECT_NAME_Release_x64.exe`
 
+## How to build
+1. Clone Project
+```bash
+git clone --recurse-submodules https://github.com/cloud-sail/Doomenstein.git
+```
+2. Open Solution `PROJECT_NAME.sln` file
+- In Project Property Pages
+  - Debugging->Command: `$(TargetFileName)`
+  - Debugging->Working Directory: `$(SolutionDir)Run/`
